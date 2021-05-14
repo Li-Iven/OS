@@ -1,0 +1,10 @@
+__isoc99_scanf(0x7f7857000a47, 0x7ffffcf6b894, 0x7ffffcf6b9c8, 0x7f78570009c0)           = 1
+__isoc99_scanf(0x7f7857000a44, 0x7ffffcf6b898, 0x7ffffcf6b89c, 16)                       = 2
+GCF(123, 9, 0x7f78569dd8d0, 24)                                                          = 3
+__printf_chk(1, 0x7f7857000a4a, 123, 9)                                                  = 15
+__isoc99_scanf(0x7f7857000a47, 0x7ffffcf6b894, 0x7f78569dd8c0, 0)                        = 1
+__isoc99_scanf(0x7f7857000a5b, 0x7ffffcf6b8a0, 0x7ffffcf6b8a4, 16)                       = 2
+Square(0, 2, 0x7f78569dd8d0, 0x7ffffcf6b351)                                             = 2
+__printf_chk(1, 0x7f7857000a61, 0x7f78569dd8d0, 0x7ffffcf6b351)                          = 19
+__isoc99_scanf(0x7f7857000a47, 0x7ffffcf6b894, 0x7f78569dd8c0, 0)                        = 0xffffffff
++++ exited (status 0) +++

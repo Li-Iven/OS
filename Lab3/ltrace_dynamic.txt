@@ -1,0 +1,23 @@
+dlopen("./libfunctions1.so", 2)                                                          = 0x7fffc3083280
+dlsym(0x7fffc3083280, "GCF")                                                             = 0x7f42a55e05b4
+dlsym(0x7fffc3083280, "Square")                                                          = 0x7f42a55e059a
+__isoc99_scanf(0x7f42a6200cdf, 0x7fffcae19150, 1, 0)                                     = 1
+__isoc99_scanf(0x7f42a6200cb5, 0x7fffcae19154, 0x7fffcae19158, 16)                       = 2
+printf("GCF(%d,%d) = %d\n", 123, 9, 3)                                                   = 15
+__isoc99_scanf(0x7f42a6200cdf, 0x7fffcae19150, 0, 0)                                     = 1
+__isoc99_scanf(0x7f42a6200ccc, 0x7fffcae1915c, 0x7fffcae19160, 16)                       = 2
+printf("Square = %f\n", 12.000000)                                                       = 19
+__isoc99_scanf(0x7f42a6200cdf, 0x7fffcae19150, 0, 0)                                     = 1
+dlclose(0x7fffc3083280)                                                                  = 0
+dlopen("./libfunctions2.so", 2)                                                          = 0x7fffc3083280
+dlsym(0x7fffc3083280, "GCF")                                                             = 0x7f42a55e063d
+dlsym(0x7fffc3083280, "Square")                                                          = 0x7f42a55e05ea
+__isoc99_scanf(0x7f42a6200cdf, 0x7fffcae19150, 1, 0)                                     = 1
+__isoc99_scanf(0x7f42a6200ccc, 0x7fffcae1915c, 0x7fffcae19160, 16)                       = 2
+printf("Square = %f\n", 6.000000)                                                        = 18
+__isoc99_scanf(0x7f42a6200cdf, 0x7fffcae19150, 0, 0)                                     = 1
+__isoc99_scanf(0x7f42a6200cb5, 0x7fffcae19154, 0x7fffcae19158, 16)                       = 2
+printf("GCF(%d,%d) = %d\n", 175, 15, 5)                                                  = 16
+__isoc99_scanf(0x7f42a6200cdf, 0x7fffcae19150, 0, 0)                                     = 0xffffffff
+dlclose(0x7fffc3083280)                                                                  = 0
++++ exited (status 0) +++
